@@ -89,7 +89,7 @@ class ParoleTest {
 	@Test
 	void parolaMaxTest() {
 		Parole parole = new Parole("Esempio.txt");
-		assertTrue(parole.parolaMax().equalsIgnoreCase("arrivederci"));
+		assertTrue(parole.parolaMax().equalsIgnoreCase("è"));
 		
 		parole = new Parole(null);
 		assertTrue(parole.parolaMax().equalsIgnoreCase(""));
